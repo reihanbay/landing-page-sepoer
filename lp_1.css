@@ -1,0 +1,124 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background-image: url("sepur.jpg");
+    background-size:auto;
+}
+
+nav{
+    position: relative;
+    width: 100%;
+    height: 60px
+
+}
+nav ul{
+    float:left;
+    position:relative;
+    top: 20px;
+    margin: 0
+}
+
+nav ul li {
+    float: left;
+    display: block;
+    margin:20px 20px 20px 20px 
+}
+nav ul li a{
+    padding: 5px 10px 5px 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    position: relative;
+}
+
+.nav{
+    background-color: #E47926;
+    color : white ;
+}
+.nav:hover{
+    background-color: white;
+    color:#E47926;
+    border:2px solid #E47926;
+    margin:20px 17px 20px 17px 
+}
+nav img{
+    float: right;
+}
+
+#logo{
+    margin :20px 20px 20px 20px;
+}
+
+.lp-l{
+    float: right;
+    text-align: center;
+    display: block;
+    position:absolute;
+    right: 0;
+    margin : 150px 60px 50px 10px;
+}
+
+.lp-l h1{
+    color:#E47926;
+    font-size: 40px
+    
+}
+.lp-l p{
+    color: #ACACAC;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+.lp-l a{
+    margin-top:10px;
+    padding: 10px 30px 10px 30px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold ;
+    -webkit-transition-duration : 0.5s;
+    transition-duration: 0.5s;
+}
+#btn{
+    color: white;
+    background-color: #E47926;
+} 
+#btn:hover{
+    color:#E47926;
+    background-color: white;
+    border: 2px solid #E47926
+}
+
+
+
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+  }
+  @media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+  }
